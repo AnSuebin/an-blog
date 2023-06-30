@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import profileImage from "@/../public/images/profile.png";
-import SubmitButton from "./button/submitButton";
+import SubmitButton from "./button/SubmitButton";
 
 const Profile = () => {
   return (

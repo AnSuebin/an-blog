@@ -19,7 +19,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Header />
-        {children}
+        <div className="w-full flex justify-center">
+          <div className="max-w-screen-lg">{children}</div>
+        </div>
         <Footer />
       </body>
     </html>
